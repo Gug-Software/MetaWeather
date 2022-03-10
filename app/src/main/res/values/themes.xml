@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="Theme.MetaWeather" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryColor</item>
+        <item name="colorOnPrimary">@color/primaryTextColor_high</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryDarkColor</item>
+        <item name="colorOnSecondary">@color/secondaryTextColor_high</item>
+
+        <item name="colorError">@color/errorColor</item>
+        <item name="colorOnError">@color/primaryTextColor_high</item>
+
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="colorOnSurface">@color/secondaryTextColor_high</item>
+
+        <item name="android:colorBackground">@color/weather_background</item>
+        <item name="colorOnBackground">@color/secondaryTextColor_high</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <!-- Texts -->
+        <item name="textAppearanceButton">@style/WeatherBaseText.Button</item>
+        <item name="textAppearanceHeadline4">@style/WeatherBaseText.Headline4</item>
+        <item name="textAppearanceSubtitle1">@style/WeatherBaseText.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/WeatherBaseText.Subtitle2</item>
+        <item name="textAppearanceBody1">@style/WeatherBaseText.Body1</item>
+        <item name="textAppearanceBody2">@style/WeatherBaseText.Body2</item>
+        <item name="textAppearanceOverline">@style/WeatherBaseText.Overline</item>
+
+        <!--SnackBar-->
+        <item name="snackbarStyle">@style/Inces_Snackbar</item>
+
+    </style>
+
+    <style name="Theme.MetaWeather.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.MetaWeather.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.MetaWeather.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

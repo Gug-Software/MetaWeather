@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.22418478260869565" />
+        <entry key="app/src/main/res/layout/common_data_zero_view.xml" value="0.22418478260869565" />
+        <entry key="app/src/main/res/layout/common_error_view.xml" value="0.22418478260869565" />
+        <entry key="app/src/main/res/layout/common_loading_view.xml" value="0.22418478260869565" />
+        <entry key="app/src/main/res/layout/common_no_connection_view.xml" value="0.22418478260869565" />
+        <entry key="app/src/main/res/layout/common_no_results_view.xml" value="0.22418478260869565" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.22418478260869565" />
+        <entry key="app/src/main/res/layout/content_search.xml" value="0.22418478260869565" />
+        <entry key="app/src/main/res/layout/fragment_city.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.22418478260869565" />
+        <entry key="app/src/main/res/layout/fragment_search.xml" value="0.22418478260869565" />
+        <entry key="app/src/main/res/layout/fragment_second.xml" value="0.22418478260869565" />
+        <entry key="app/src/main/res/layout/search_result_item_view.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/shape_bg_weather_future_view.xml" value="0.22418478260869565" />
+        <entry key="app/src/main/res/layout/weather_additional_info_item_view.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/weather_future_item_view.xml" value="0.22418478260869565" />
+        <entry key="app/src/main/res/layout/weather_future_view.xml" value="0.335" />
+        <entry key="app/src/main/res/menu/menu_main.xml" value="0.209375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

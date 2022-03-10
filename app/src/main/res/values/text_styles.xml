@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="WeatherBaseText" parent="TextAppearance.AppCompat">
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="WeatherBaseText.Button">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/text_size_14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/primaryTextColor_high</item>
+        <item name="android:height">@dimen/button_height_normal</item>
+    </style>
+
+    <style name="WeatherBaseText.Headline4">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_34sp</item>
+        <item name="android:textColor">@color/secondaryTextColor_high</item>
+        <item name="android:letterSpacing">-0.04</item>
+    </style>
+
+    <style name="WeatherBaseText.Subtitle1">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_18sp</item>
+        <item name="android:textColor">@color/secondaryTextColor_high</item>
+        <item name="android:letterSpacing">-0.015</item>
+    </style>
+
+    <style name="WeatherBaseText.Subtitle2">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/text_size_14sp</item>
+        <item name="android:textColor">@color/secondaryTextColor_medium</item>
+        <item name="android:letterSpacing">-0.01</item>
+    </style>
+
+    <style name="WeatherBaseText.Body1">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/text_size_16sp</item>
+        <item name="android:textColor">@color/secondaryTextColor_high</item>
+        <item name="android:letterSpacing">-0.05</item>
+    </style>
+
+    <style name="WeatherBaseText.Body2">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/text_size_14sp</item>
+        <item name="android:textColor">@color/secondaryTextColor_medium</item>
+        <item name="android:letterSpacing">-0.025</item>
+    </style>
+
+    <style name="WeatherBaseText.Overline">
+        <item name="android:textSize">@dimen/text_size_12sp</item>
+        <item name="android:textColor">@color/secondaryTextColor_medium</item>
+        <item name="android:letterSpacing">-0.1</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,54 @@
+<resources>
+
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="radius_xs">4dp</dimen>
+    <dimen name="radius_s">8dp</dimen>
+    <dimen name="radius_m">16dp</dimen>
+    <dimen name="radius_l">32dp</dimen>
+    <dimen name="radius_xl">64dp</dimen>
+
+    <dimen name="elevation_xs">2dp</dimen>
+    <dimen name="elevation_s">4dp</dimen>
+    <dimen name="elevation_m">8dp</dimen>
+    <dimen name="elevation_l">12dp</dimen>
+    <dimen name="elevation_xl">16dp</dimen>
+
+    <dimen name="padding_xs">4dp</dimen>
+    <dimen name="padding_s">8dp</dimen>
+    <dimen name="padding_m">16dp</dimen>
+    <dimen name="padding_ml">24dp</dimen>
+    <dimen name="padding_l">32dp</dimen>
+    <dimen name="padding_xl">64dp</dimen>
+
+    <dimen name="margin_xs">4dp</dimen>
+    <dimen name="margin_s">8dp</dimen>
+    <dimen name="margin_m">16dp</dimen>
+    <dimen name="margin_xm">24dp</dimen>
+    <dimen name="margin_l">32dp</dimen>
+    <dimen name="margin_xl">64dp</dimen>
+
+    <dimen name="stroke_xs">0.5dp</dimen>
+    <dimen name="stroke_s">1dp</dimen>
+    <dimen name="stroke_m">2dp</dimen>
+    <dimen name="stroke_l">3dp</dimen>
+    <dimen name="stroke_xl">4dp</dimen>
+
+    <dimen name="text_size_12sp">12sp</dimen>
+    <dimen name="text_size_14sp">14sp</dimen>
+    <dimen name="text_size_16sp">16sp</dimen>
+    <dimen name="text_size_18sp">18sp</dimen>
+    <dimen name="text_size_34sp">34sp</dimen>
+
+    <dimen name="button_height_normal">60dp</dimen>
+
+    <dimen name="lottie_size">48dp</dimen>
+    <dimen name="lottie_size_large">144dp</dimen>
+    <dimen name="lottie_size_big">300dp</dimen>
+
+    <dimen name="anim_splash_size">240dp</dimen>
+
+    <dimen name="weather_additional_info_width">96dp</dimen>
+    <dimen name="weather_future_width">64dp</dimen>
+
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">MetaWeather</string>
+
+    <string name="msg_consulting_info">Consultando información…</string>
+    <string name="msg_use_query">Busca una ciudad en el buscador</string>
+    <string name="msg_no_results">No encontramos resultados para tu busqueda, intenta buscando otros lugares.</string>
+    <string name="msg_no_internet">Ops… parece que no tienes conexión</string>
+    <string name="msg_error">Ops… Algo muy malo ha pasado :(</string>
+
+    <string name="hint_search">Ingresa una ciudad</string>
+
+    <string name="search_title">Busqueda</string>
+
+    <string name="city_title">Ciudad</string>
+    <string name="city_text_future_days">Próximos %1$s dias</string>
+
+</resources>
