@@ -11,8 +11,9 @@ import com.bumptech.glide.Glide
 import com.jkgug.bold.metaweather.databinding.FragmentCityBinding
 import com.jkgug.bold.metaweather.model.SearchResult
 import com.jkgug.bold.metaweather.model.WeatherBasicInfo
-import com.jkgug.bold.metaweather.utils.hide
-import com.jkgug.bold.metaweather.utils.show
+import com.jkgug.bold.metaweather.utils.*
+import com.jkgug.bold.metaweather.utils.slideInLeft
+import com.jkgug.bold.metaweather.utils.slideInRight
 import com.jkgug.bold.metaweather.weather.city.viewmodel.CityUiModel
 import com.jkgug.bold.metaweather.weather.city.viewmodel.CityViewModel
 import com.xwray.groupie.GroupAdapter
@@ -107,14 +108,16 @@ class CityFragment : Fragment() {
 
     private fun showDataForToday(data: List<Item<*>>) {
         binding.apply {
-            show(viewFutureToday)
             viewFutureToday.setItems(data)
             viewFutureToday.hideText()
+            viewFutureToday.slideInRight { }
         }
     }
 
     private fun showViewsBasicData() = binding.apply {
-        show(imageWeather, textWeatherName, recyclerItems, viewFuture)
+        show(imageWeather, textWeatherName)
         hide(viewLoading, viewFutureToday)
+        recyclerItems.slideInRight { }
+        viewFuture.slideInLeft { }
     }
 }

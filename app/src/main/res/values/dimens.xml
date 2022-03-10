@@ -50,5 +50,6 @@
 
     <dimen name="weather_additional_info_width">96dp</dimen>
     <dimen name="weather_future_width">64dp</dimen>
+    <dimen name="weather_future_icon_size">36dp</dimen>
 
 </resources>

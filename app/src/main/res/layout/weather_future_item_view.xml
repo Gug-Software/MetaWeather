@@ -30,17 +30,19 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
+                android:gravity="center"
                 android:textAppearance="?textAppearanceOverline"
                 android:textColor="@color/primaryTextColor_medium"
                 tools:text="Wind" />
 
             <ImageView
                 android:id="@+id/image_weather"
-                android:layout_width="36dp"
-                android:layout_height="36dp"
+                android:layout_width="@dimen/weather_future_icon_size"
+                android:layout_height="@dimen/weather_future_icon_size"
                 android:layout_gravity="center"
                 android:layout_marginTop="@dimen/margin_s"
-                android:scaleType="fitXY" />
+                android:padding="@dimen/padding_xs"
+                android:scaleType="fitCenter" />
 
             <TextView
                 android:id="@+id/text_value"

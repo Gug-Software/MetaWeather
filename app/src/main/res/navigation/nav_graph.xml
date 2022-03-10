@@ -13,8 +13,14 @@
 
         <action
             android:id="@+id/action_FirstFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
+            app:destination="@id/SecondFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
     </fragment>
+
     <fragment
         android:id="@+id/SecondFragment"
         android:name="com.jkgug.bold.metaweather.weather.city.CityFragment"
@@ -24,8 +30,10 @@
         <action
             android:id="@+id/action_SecondFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
+
         <argument
             android:name="searchResult"
             app:argType="com.jkgug.bold.metaweather.model.SearchResult" />
+
     </fragment>
 </navigation>
