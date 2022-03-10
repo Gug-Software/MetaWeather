@@ -15,4 +15,6 @@
     <string name="city_title">Ciudad</string>
     <string name="city_text_future_days">Próximos %1$s dias</string>
 
+    <string name="by_jk">by Juan C. Martinez O.</string>
+
 </resources>

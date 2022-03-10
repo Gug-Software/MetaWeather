@@ -5,6 +5,7 @@
       <map>
         <entry key="app/src/main/res/drawable/shape_bg_weather_future_view.xml" value="0.287" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.22418478260869565" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.22418478260869565" />
         <entry key="app/src/main/res/layout/common_data_zero_view.xml" value="0.22418478260869565" />
         <entry key="app/src/main/res/layout/common_error_view.xml" value="0.22418478260869565" />
         <entry key="app/src/main/res/layout/common_loading_view.xml" value="0.22418478260869565" />
