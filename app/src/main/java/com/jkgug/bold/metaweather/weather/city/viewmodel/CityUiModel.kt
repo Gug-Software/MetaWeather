@@ -15,4 +15,6 @@ sealed class CityUiModel {
         val data: List<Item<*>>
     ) : CityUiModel()
 
+    object Error : CityUiModel()
+
 }

@@ -21,11 +21,15 @@ class CityViewModel(
 
     fun getData(woeid: String) {
         uiScope.launch {
-            val data = iCityRepository.getWeatherByCityWoeId(woeId = woeid)
-            _uiModel.value = CityUiModel.ShowDataCity(data)
+            try {
+                val data = iCityRepository.getWeatherByCityWoeId(woeId = woeid)
+                _uiModel.value = CityUiModel.ShowDataCity(data)
 
-            val dayData = iCityRepository.getWeatherForToday(woeid)
-            _uiModel.value = CityUiModel.ShowDataCityForToday(dayData)
+                val dayData = iCityRepository.getWeatherForToday(woeid)
+                _uiModel.value = CityUiModel.ShowDataCityForToday(dayData)
+            } catch (exc: Exception) {
+                _uiModel.value = CityUiModel.Error
+            }
         }
     }
 

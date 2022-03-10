@@ -86,6 +86,21 @@ class CityFragment : Fragment() {
             CityUiModel.LoadingPpal -> loadingPpal()
             is CityUiModel.ShowDataCity -> showDataCity(uiModel.data)
             is CityUiModel.ShowDataCityForToday -> showDataForToday(uiModel.data)
+            CityUiModel.Error -> showError()
+        }
+    }
+
+    private fun showError() {
+        binding.apply {
+            show(viewError)
+            hide(
+                imageWeather,
+                textWeatherName,
+                recyclerItems,
+                viewFuture,
+                viewFutureToday,
+                viewLoading
+            )
         }
     }
 

@@ -26,11 +26,15 @@ class SearchViewModel(
         } else {
             _uiModel.value = SearchUiModel.Loading
             uiScope.launch {
-                val results = searchRepository.searchByQuery(text)
-                if (results.isEmpty()) {
-                    _uiModel.value = SearchUiModel.EmptyResults
-                } else {
-                    _uiModel.value = SearchUiModel.ShowResults(results)
+                try {
+                    val results = searchRepository.searchByQuery(text)
+                    if (results.isEmpty()) {
+                        _uiModel.value = SearchUiModel.EmptyResults
+                    } else {
+                        _uiModel.value = SearchUiModel.ShowResults(results)
+                    }
+                } catch (exc: Exception) {
+                    _uiModel.value = SearchUiModel.Error
                 }
             }
         }
